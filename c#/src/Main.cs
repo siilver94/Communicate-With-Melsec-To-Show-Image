@@ -153,6 +153,7 @@ namespace GetSignalShowImage
                     if (Convert.ToInt32(data2) == 2)
                     {
 
+
                            ShowImage(3);
                     }
                 }
