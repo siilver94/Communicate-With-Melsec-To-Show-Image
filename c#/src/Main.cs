@@ -139,8 +139,6 @@ namespace GetSignalShowImage
             this.Invoke(new dele(() =>
             {
 
-                //byte[] bt = (byte[])data;
-
 
                 if (name.Equals("Image2"))
                 {
