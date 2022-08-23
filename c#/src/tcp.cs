@@ -105,10 +105,6 @@ namespace GetSignalShowImageF
                 try
                 {
                     mServer.BeginAcceptTcpClient(HandleAsyncConnection, mServer);
-                    //여기서 무한정기다리지않고 번호표뽑고 연결할라고 대기하는놈들 몇마리인지
-                    //확인 후 있으면 HandleAsyncConnection 콜백함수 호출해줌.
-                    //없으면 넘어가기(비동기)
-                    //AcceptTcpClient = 동기 신호로 무한정기다리면서 연결하는놈
 
                 }
                 catch (Exception)
