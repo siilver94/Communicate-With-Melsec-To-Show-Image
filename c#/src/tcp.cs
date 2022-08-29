@@ -798,13 +798,6 @@ namespace GetSignalShowImageF
                         else
                         {
 
-                            //System.Net.IPAddress ip = System.Net.IPAddress.Parse( ClientIP );
-                            //IPEndPoint ipLocalEndPoint = new IPEndPoint( ip , ClientPort );
-                            //mClient = new TcpClient( ipLocalEndPoint );
-
-                            //mClient.Client.SetSocketOption( SocketOptionLevel.Socket , SocketOptionName.DontLinger , false );
-                            //mClient.Client.SetSocketOption( SocketOptionLevel.Socket , SocketOptionName.Linger , lingeroption );
-                            //mClient.Client.SetSocketOption( SocketOptionLevel.Socket , SocketOptionName.KeepAlive , 0 );
 
                             mClient.ReceiveTimeout = ReceiveTimeOut;
                             mClient.Connect(ServerIP, ServerPort);
