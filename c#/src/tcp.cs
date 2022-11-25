@@ -373,7 +373,7 @@ namespace GetSignalShowImageF
         {
             //스레드종료
             ReceiveThreadFlag = false;
-            //ReceiveThread = null;
+            
 
         }
         #endregion
