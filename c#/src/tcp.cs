@@ -1046,10 +1046,6 @@ namespace GetSignalShowImageF
                 if (objMO["MACAddress"] != null && objMO["MACAddress"].Equals(mac) && objMO["IPAddress"] != null)
                 {
 
-                    //ManagementBaseObject setIP;
-                    //ManagementBaseObject newIP =
-                    //objMO.GetMethodParameters("EnableStatic");
-
                     result = ((string[])(objMO["IPAddress"]))[0];
 
 
