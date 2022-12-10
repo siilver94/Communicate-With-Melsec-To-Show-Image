@@ -400,7 +400,7 @@ namespace GetSignalShowImageF
             {
                 string SendData = Parsing.DeleteSpace(str);
 
-                //int SendDataLength = textBox2.TextLength;//4
+                
 
                 char[] CharArray = SendData.ToCharArray();// 0 0 0 0
 
