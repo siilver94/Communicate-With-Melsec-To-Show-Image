@@ -694,8 +694,7 @@ namespace GetSignalShowImageF
 
                 try
                 {
-                    //_stream.Read( ReceiveData , 0 , ReceiveData.Length );//리시브데이터에 집어넣음
-                    //_stream.Flush( );
+
 
                 }
                 catch (IOException)
