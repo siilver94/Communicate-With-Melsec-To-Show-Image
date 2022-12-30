@@ -902,7 +902,7 @@ namespace GetSignalShowImageF
                     if (TalkingComm != null) TalkingComm("Image2", "", data1, "", "", "", "", "", "", "");
                     // }
 
-                    //if (TalkingComm != null) TalkingComm("BarCode", "", BCdata1, BCdata2, BCdata3, BCdata4, BCdata5, BCdata6, "", "");
+                   
 
 
 
