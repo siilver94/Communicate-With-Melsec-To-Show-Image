@@ -1009,13 +1009,7 @@ namespace GetSignalShowImageF
             {
                 if (objMO["MACAddress"] != null && objMO["MACAddress"].Equals(mac))
                 {
-                    //MessageBox.Show("a");
 
-                    //ManagementBaseObject setIP;
-         
-                    //ManagementBaseObject newIP =
-                    //objMO.GetMethodParameters("EnableStatic");
-                    //result = objMO.Properties["DHCPEnabled"];
                     result = objMO["DHCPEnabled"].ToString();
                     //MessageBox.Show(a.ToString());
                     //newIP["SubnetMask"] = new string[] { subnet_mask };
